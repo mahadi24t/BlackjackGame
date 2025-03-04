@@ -6,7 +6,7 @@ let sum = firstCard + secondCard;
 
 let message = "";
 //console.log(sum);
-
+function startGame() {
 if (sum <= 20) {
     message = "Do you want to draw a new card? 🙂"
 } else if (sum === 21) {
@@ -18,6 +18,7 @@ if (sum <= 20) {
 }
 
 console.log(message);
+}
 
 if (hasBlackjack) {
     console.log("Cashout!");
