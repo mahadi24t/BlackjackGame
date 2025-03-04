@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-image: url("https://images.unsplash.com/photo-1655159428752-c700435e9983?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8YmxhY2tqYWNrfGVufDB8fDB8fHww");
+    background-image: url("https://e0.pxfuel.com/wallpapers/230/508/desktop-wallpaper-blackjack-casino-game.jpg");
     background-size: cover;
     text-align: center;
     color: aliceblue;
@@ -15,4 +15,17 @@ h1 {
 
 #message-el {
     font-style: italic;
+}
+button{
+    background-color: goldenrod;
+    width: 150px;
+    color: #016f32;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+
 }
