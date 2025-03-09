@@ -13,9 +13,10 @@ sumEl = document.getElementById("sum-el");
 cardEl = document.querySelector("#card-el");
 
 
-function startGame() {
-    sumEl.textContent = "Sum: "+ sum;
+function renderGame() {
+
     cardEl.textContent = "Cards: "+ card[0] + " , " + card[1] ;
+    sumEl.textContent = "Sum: "+ sum;
 if (sum <= 20) {
     message = "Do you want to draw a new card? "
 } else if (sum === 21) {
@@ -37,15 +38,16 @@ if (hasBlackjack) {
 if (!isAlive) {
     console.log("You are not alive on this game! ")
 }
-let renderGame = () => {
-    startGame();
+let startGame = () => {
+    renderGame();
 }
 
 function newCard() {
     //console.log("Drawing a new card from the game the deck!");
-    let newCard = 7;
-    sum = sum + newCard;
+    let cardNew = 7;
+    sum += cardNew;
     //startGame();
+    card.push(cardNew);
     renderGame();
 }
 
