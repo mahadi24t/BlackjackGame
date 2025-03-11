@@ -49,6 +49,7 @@ function newCard() {
     //startGame();
     card.push(cardNew);
     renderGame();
+    //
 }
 
 
